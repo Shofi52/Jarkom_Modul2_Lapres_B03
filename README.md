@@ -82,3 +82,17 @@ zone "83.151.10.in-addr.arpa" {
 - Buat file `.htaccess` di directory `/var/www/semerub03.pw`
 
 ![9](modul2/7.png)
+
+### 11. Pada folder `/public` dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan.
+
+### 12. Untuk mengatasi HTTP Error code 404, disediakan file `404.html` pada folder `/errors` untuk mengganti error default 404 dari Apache.
+
+### 13. Untuk mengakses file assets javascript awalnya harus menggunakan url `http://penanjakan.semerub03.pw/public/javascripts`. Karena terlalu panjang maka dibuatkan konfigurasi virtual host agar ketika mengakses file assets menjadi `http://penanjakan.semerub03.pw/js`.
+
+### 14. Web `http://naik.gunung.semerub03.pw` sudah bisa diakses hanya dengan menggunakan port 8888. DocumentRoot web berada pada `/var/www/naik.gunung.semerub03.pw`.
+
+### 15. Web `http://naik.gunung.semerub03.pw` bersifat private. Dibuat web `http://naik.gunung.semerub03.pw` dan diberi autentikasi password dengan username `“semeru”` dan password `“kuynaikgunung”`
+
+### 16. Pengunjung IP PROBOLINGGO akan dialihkan secara otomatis ke `http://semerub03.pw`.
+
+### 17. Karena pengunjung pada `/var/www/penanjakan.semerub03.pw/public/images` sangat banyak maka semua request gambar yang memiliki substring `“semeru”` akan diarahkan menuju `semeru.jpg`.

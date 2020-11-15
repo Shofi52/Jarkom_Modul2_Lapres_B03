@@ -109,7 +109,7 @@ zone "83.151.10.in-addr.arpa" {
 
 ### 13. Untuk mengakses file assets javascript awalnya harus menggunakan url `http://penanjakan.semerub03.pw/public/javascripts`. Karena terlalu panjang maka dibuatkan konfigurasi virtual host agar ketika mengakses file assets menjadi `http://penanjakan.semerub03.pw/js`.
 - Konfigurasi Alias untuk file `penanjakan.semerub03.pw`
-- Alias `/js` `/var/www/penanjakan.semerub03.pw/public/javascripts'
+- Alias `/js` `/var/www/penanjakan.semerub03.pw/public/javascripts`
 
 ### 14. Web `http://naik.gunung.semerub03.pw` sudah bisa diakses hanya dengan menggunakan port 8888. DocumentRoot web berada pada `/var/www/naik.gunung.semerub03.pw`.
 - Konfigurasi `file sites-available naik.gunung.semerub03`

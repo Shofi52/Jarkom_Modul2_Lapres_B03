@@ -83,6 +83,14 @@ zone "83.151.10.in-addr.arpa" {
 
 ![9](modul2/7.png)
 
+### 10. Web `http://penanjakan.semerub03.pw` akan digunakan untuk menyimpan assets file yang memiliki DocumentRoot pada `/var/www/penanjakan.semerub03.pw` dan memiliki struktur folder sebagai berikut:
+
+- /var/www/penanjakan.semerub03.pw
+  - /public/javascripts
+  - /public/css
+  - /public/images
+  - /errors
+
 ### 11. Pada folder `/public` dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan.
 
 ### 12. Untuk mengatasi HTTP Error code 404, disediakan file `404.html` pada folder `/errors` untuk mengganti error default 404 dari Apache.

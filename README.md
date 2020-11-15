@@ -131,4 +131,4 @@ zone "83.151.10.in-addr.arpa" {
 ### 17. Karena pengunjung pada `/var/www/penanjakan.semerub03.pw/public/images` sangat banyak maka semua request gambar yang memiliki substring `“semeru”` akan diarahkan menuju `semeru.jpg`.
 - Konfigurasi rewrite di .htaccess penanjakan.semerub03.pw/public/images 
 
-![17](modul2/13.jpg)
+![17](modul2/13.png)

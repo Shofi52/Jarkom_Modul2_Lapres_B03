@@ -62,6 +62,7 @@ zone "83.151.10.in-addr.arpa" {
 - Direktori dengan nama delegasi dibuat
 
 ![6](modul2/2.png)
+
 ![6](modul2/5.png)
 
 ### 7. Subdomain dengan nama `http://naik.gunung.semerub03.pw`, domain ini diarahkan ke IP Server PROBOLINGGO.
